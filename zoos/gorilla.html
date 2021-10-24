@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Gorilla</title>
+</head>
+
+<body>
+    <div class="header-upper">
+        <div class="container">
+            <header class="header">
+
+                <div class="header__logo">
+                    <a name="top" href="../index.html"> <img src="../images/logo.svg" alt="logo"></a>
+
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list-links">
+                        <li> <a class="header__link" href="../index.html">about</a></li>
+                        <li><a class="header__link" href="../map.html">map</a> </li>
+                        <li> <a class="header__link green" href="../zoos/panda.html">zoos</a> </li>
+                        <li><a class="header__link" href="../contact.html">contact us</a> </li>
+                        <li><a class="header__link"
+                                href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">design</a>
+                        </li>
+
+                    </ul>
+                    <ul class="header__list-sites">
+                        <li> <a class="header__site" href="https://www.youtube.com/">
+                                <img src="../images/YouTube.svg" alt="YouTube">
+                            </a></li>
+                        <li> <a class="header__site" href="https://www.instagram.com/">
+                                <img src="../images/Instagram.svg" alt="Instagram">
+                            </a></li>
+                        <li> <a class="header__site" href="https://www.facebook.com/">
+                                <img src="../images/Facebook.svg" alt="Facebook">
+                            </a></li>
+                    </ul>
+                </nav>
+
+                <!-- BURGER FOR 640px -->
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span>
+                            <hr class="burger-line">
+                            <hr class="burger-line">
+                            <hr class="burger-line">
+                        </span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="../index.html">about</a></li>
+                        <li><a class="menu__item" href="../map.html">map</a></li>
+                        <li><a class="menu__item green" href="../zoos/panda.html">zoos</a></li>
+                        <li><a class="menu__item" href="../contact.html">contact us</a></li>
+                        <li><a class="menu__item"
+                                href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">design</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+    </div>
+    <!-- //////////////////////////////////////////////////////// -->
+
+    <!-- <div class="wrapper"> -->
+
+
+    <!-- side bar start -->
+    <aside class="side-bar">
+
+        <!-- top -->
+        <div class="side-bar__top">
+            <div class="side-bar__top-live">
+                <span class="side-bar__top-span">
+                    live
+                </span>
+                <img src="../images/zoos/aside-cam.svg" alt="cam">
+            </div>
+
+            <!-- BURGER_ASIDE -->
+            <div class="hamburger-menu-zoos">
+               
+                <label class="menu__btn-zoos" for="menu__toggle-zoos">
+                    <div class="side-bar__top-button">
+                    </div>
+                </label>
+            </div>
+        </div>
+        </div>
+
+        <!-- panda -->
+        <div class="side-bar__card gorilla-active-320">
+            <a href="../zoos/gorilla.html">
+                <div class="side-bar__card-back card-active gorilla-active-1200">
+                    <img class="side-bar__panda-img" src="../images/zoos/Gorilla.png" alt="panda">
+                </div>
+            </a>
+            <span class="side-bar__card-span">Live from Gorilla Forest Corridor habitat cam </span>
+        </div>
+        <!-- eadle -->
+        <div class="side-bar__card lemur-passive-320">
+            <a href="../zoos/lemur.html">
+                <div class="side-bar__card-back card-passive lemur-passive-1200">
+                    <img class="side-bar__panda-img" src="../images/zoos/Lemur.png" alt="eagle">
+                </div>
+            </a>
+            <span class="side-bar__card-span">Lemurs play in Madagascar, Lemuria Land </span>
+        </div>
+        <!-- gorilla -->
+        <div class="side-bar__card panda-passive-320">
+            <a href="../zoos/panda.html">
+                <div class="side-bar__card-back card-passive eagle-passive-1200">
+                    <img class="side-bar__panda-img" src="../images/zoos/Panda.png" alt="panda">
+                </div>
+            </a>
+            <span class="side-bar__card-span">The Bald Eagles Nest from West End cam </span>
+        </div>
+        <!-- lemur -->
+        <div class="side-bar__card eagle-passive-320">
+            <a href="../zoos/eagle.html">
+                <div class="side-bar__card-back card-passive panda-passive-1200">
+                    <img class="side-bar__panda-img" src="../images/zoos/Eagle.png" alt="lemur">
+                </div>
+            </a>
+            <span class="side-bar__card-span">Watch live from China's  Panda Center </span>
+        </div>
+        <!-- bottom -->
+        <div class="side-bar__bottom">
+
+            <button class="side-bar__bottom-button">
+                <img src="../images/zoos/aside-bottom-arrow.svg" alt="arrow">
+            </button>
+        </div>
+
+
+    </aside>
+    <!-- </div> -->
+    <!-- side bar end -->
+
+    <!-- live-cam start -->
+    <div class="container">
+        <section class="live-cams">
+
+            <div class="live-cams__header">
+
+                <h2 class="live-cams__header-title">
+                    gorillas cams
+                </h2>
+
+                <button class="live-cams__header-button popup-link" data-link="popup">
+                    <span class="header-button-span">donate now</span>
+                    <img src="../images/think-right.png" alt="right">
+                </button>
+            </div>
+
+            <div class="live-cams__player">
+                <div class="live-cams__player-logo">
+                    <img src="../images/footer-left-img.png" alt="">
+                </div>
+                <iframe class="live-cams__iframe"
+                src="https://www.youtube.com/embed/rgXWDk7rh4w"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+
+            <h3 class="live-cams__footer-title">
+                more live views
+            </h3>
+            <!-- bottom players  -->
+            <div class="container-list">
+            <ul class="live-cams__list">
+                <li class="live-cams__item">
+                    <a href="" class="live-cams__button-left">
+                        <img src="../images/meet-choose-left.png" alt="Left-button">
+                    </a>
+                </li>
+                <li class="live-cams__item player">
+                    <iframe
+                    src="https://www.youtube.com/embed/Y_ksdk27O8s"
+                        width="320" height="209" frameborder="0" allowfullscreen=""
+                        class="live-cams__item-player"></iframe>
+                    <div class="live-cams__invis"></div>
+                    <div class="live-cams__camera">
+                        <span class="live-cams__span">
+                            cam1
+                        </span>
+                        <img src="../images/zoos/aside-cam.png" alt="cam">
+                    </div>
+                </li>
+                <li class="live-cams__item player">
+                    <iframe
+                    src="https://www.youtube.com/embed/3T0z1CT-nR8"
+                        width="320" height="209" frameborder="0" allowfullscreen=""
+                        class="live-cams__item-player"></iframe>
+                    <div class="live-cams__invis"></div>
+                    <div class="live-cams__camera">
+                        <span class="live-cams__span">
+                            cam2
+                        </span>
+                        <img src="../images/zoos/aside-cam.png" alt="cam">
+                    </div>
+                </li>
+                <li class="live-cams__item player">
+                    <iframe
+                    src="https://www.youtube.com/embed/GlOQnsVOa2o"
+                        width="320" height="209" frameborder="0" allowfullscreen=""
+                        class="live-cams__item-player"></iframe>
+                    <div class="live-cams__invis"></div>
+                    <div class="live-cams__camera">
+                        <span class="live-cams__span">
+                            cam3
+                        </span>
+                        <img src="../images/zoos/aside-cam.png" alt="cam">
+                    </div>
+                </li>
+                <li class="live-cams__item">
+                    <a href="" class="live-cams__button-right">
+                        <img src="../images/meet-choose.png" alt="Right-button">
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+
+
+        </section>
+
+
+        <!-- live-cam end -->
+
+    </div>
+    <!-- Quick donate start -->
+    <!-- popup -->
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="" class="popup__close close__popup"></a>
+                <div class="popup__background"></div>
+                <div class="popup__title">together we care, save and protect!</div>
+                <div class="popup__text">
+                    Your most generous gift not only cares
+                    for countless animals, but it also offers hope and a vital
+                    lifeline to the world’s most endangered wildlife
+                    relying on us to survive.
+                </div>
+                <form class="popup__form" action="">
+
+                    <ul class="popup__buttons popup-link" data-link="popup-1">
+                        <li class="popup__button popup-link">
+                            <a class="popup__list-btn" href="">$20</a>
+                        </li>
+                        <li class="popup__button">
+                            <a class="popup__list-btn" href=""> $30</a>
+                        </li>
+                        <li class="popup__button">
+                            <a class="popup__list-btn" href="">$50</a>
+                        </li>
+                        <li class="popup__button">
+                            <a class="popup__list-btn" href="">$80</a>
+                        </li>
+                        <li class="popup__button">
+                            <a class="popup__list-btn" href="">$100</a>
+                        </li>
+                        <li class="popup__button">
+                            <a class="popup__list-btn" href=""> other amount</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- popup step1 -->
+    <div id="popup-1" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup-1__content">
+
+                <div class="popup-1__title">make your donation</div>
+                <div class="popup-1__subtitle">
+                    <h3 class="popup-1__h3">Donation Information:</h3>
+                </div>
+
+                <div class="popup-1__container">
+                    <form class="popup-1__form" action="">
+                        <div class="popup1__choose">
+                            <span>*</span> Choose your donation amount:
+                        </div>
+                        <ul class="popup1__lists">
+                            <li class="popup1__list"> <a class="popup1__list-btn popup-link" href="#popup-1">$10</a>
+                            </li>
+                            <li class="popup1__list"> <a class="popup1__list-btn popup-link" href="#popup-1">$20</a>
+                            </li>
+                            <li class="popup1__list"> <a class="popup1__list-btn popup-link" href="#popup-1">$30</a>
+                            </li>
+                            <li class="popup1__list"> <a class="popup1__list-btn popup-link" href="#popup-1">$50</a>
+                            </li>
+                            <li class="popup1__list"> <a class="popup1__list-btn popup-link" href="#popup-1">$80</a>
+                            </li>
+                            <li class="popup1__list"> <a class="popup1__list-btn popup-link" href="#popup-1">$100</a>
+                            </li>
+                        </ul>
+
+                        <div class="popup1__other">
+                            <div class="popup1__block-other popup1__list-btn">Other amount</div>
+                            <input class="popup1__other-input" type="number" maxlength="3" required>
+                        </div>
+
+                        <div class="popup1__special">
+                            <div class="popup1__special-block">for special pet</div>
+
+                            <select name="" id="" class="popup1__donation-select">
+                                <option disabled selected>Choose your favourite</option>
+                                <option value="Lukas the Panda">Lukas the Panda</option>
+                                <option value="Andy the Lemur">Andy the Lemur</option>
+                                <option value="Sam & Lora the eagles family">Sam & Lora the eagles family
+                                </option>
+                                <option value="Glen the Gorilla">Glen the Gorilla</option>
+                            </select>
+
+                        </div>
+
+                        <div class="popup1__gift">
+                            <input class="popup1__checkbox" type="checkbox">
+                            <div class="popup1__label">
+                                Make this a monthly recurring gift
+                            </div>
+                        </div>
+
+                        <div class="popup1__bottom">
+                            <ul class="popup1__bottom-circles">
+                                <li class="popup1__bottom-circle"></li>
+                                <li class="popup1__bottom-circle"></li>
+                                <li class="popup1__bottom-circle"></li>
+                            </ul>
+                            <button class="popup1__bottom-button popup-link" data-link="popup-2">
+                                <p>next</p>
+                                <img src="../images/js/popup-first/right.svg" alt="arrow">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup step2 -->
+    <div id="popup-2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup-2__content">
+
+                <div class="popup-1__title">make your donation</div>
+                <div class="popup-1__subtitle">
+                    <h3 class="popup-1__h3">Billing Information:</h3>
+                </div>
+
+                <div class="popup-1__container">
+                    <form class="popup-2__form" action="">
+                        <div class="popup1__choose"><span>*</span> Your Name</div>
+                        <input class="popup-2__input-name" type="text" placeholder="First and last name">
+
+                        <div class="popup1__choose"><span>*</span> Your Email Address </div>
+                        <input class="popup-2__input-name" type="text" placeholder="Enter your email">
+
+                        <div class="popup-2__text">
+                            You will receive emails from the Online Zoo,
+                            including updates and news on the latest
+                            discoveries and translations.
+                            You can unsubscribe at any time.
+                        </div>
+
+                        <div class="popup1__bottom">
+                            <ul class="popup1__bottom-circles popup2__bottom-circles">
+                                <li class="popup1__bottom-circle popup2__bottom-circle"></li>
+                                <li class="popup1__bottom-circle popup2__bottom-circle"></li>
+                                <li class="popup1__bottom-circle popup2__bottom-circle"></li>
+                            </ul>
+                            <div class="popup2__back popup-link" data-link="popup-1">
+                                <a href="">Back</a>
+                            </div>
+
+                            <button class="popup1__bottom-button popup-link" data-link="popup-3">
+                                <p>next</p>
+                                <img src="../images/js/popup-first/right.svg" alt="arrow">
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- popup step3 -->
+    <div id="popup-3" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup-2__content">
+
+                <div class="popup-1__title">make your donation</div>
+                <div class="popup-1__subtitle">
+                    <h3 class="popup-1__h3">Payment Information:</h3>
+                </div>
+
+                <div class="popup-1__container">
+                    <form class="popup-3__form" action="">
+                        <div class="popup-3__top-pay">
+                            <div class="popup-3__credit">
+                                <div class="popup1__choose"><span>*</span> Credit Card Number</div>
+                                <input class="popup-3__input-credit" type="text">
+                            </div>
+                            <div class="popup-3__cvv">
+                                <div class="popup1__choose"><span>*</span> CVV Number</div>
+                                <input class="popup-3__input-cvv" type="text">
+                            </div>
+
+                        </div>
+
+                        <div class="popup-3__credit">
+                            <div class="popup1__choose"><span>*</span> Expiration Date</div>
+                            <div class="popup-3__selections">
+                                <select name="" id=""
+                                    class="popup1__donation-select popup3__donation-select popup3__month">
+                                    <option disabled selected>Month</option>
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+
+                                <select name="" id=""
+                                    class="popup1__donation-select popup3__donation-select popup3__year">
+                                    <option disabled selected>Year</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="popup1__bottom popup3__bottom">
+                            <ul class="popup1__bottom-circles popup2__bottom-circles">
+                                <li class="popup1__bottom-circle popup3__bottom-circle"></li>
+                                <li class="popup1__bottom-circle popup3__bottom-circle"></li>
+                                <li class="popup1__bottom-circle popup3__bottom-circle"></li>
+                            </ul>
+                            <div class="popup2__back popup-link" data-link="popup-2">
+                                <a href="">Back</a>
+                            </div>
+
+                            <button class="popup1__bottom-button popup3__bottom-button">
+                                <p>complete donation</p>
+                                <img src="../images/js/popup-first/right.svg" alt="arrow">
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="quick-donate-upper gorilla">
+        <div class="container">
+            <section class="quick-donate">
+                <div class="quick-donate__text">
+                    <h3 class="quick-donate__title gorilla">
+                        make a difference for the gorillas!
+                    </h3>
+                    <p class="quick-donate__subtitle eagle-fix">
+                        It is our goal to ensure the conservation
+                        and restoration of the gorilla population and
+                        their habitat in Central Africa. To do this, we
+                        need your help! Bring your food charity straight
+                        to Glen and his family.
+                    </p>
+                </div>
+
+                <div class="quick-donate__money gorilla">
+                    <span class="quick-donate__money-title">
+                        Quick Donate
+                    </span>
+
+                    <form class="quick-donate__money-form">
+                        <input type="number" placeholder="Donation amount" class="quick-donate__input-number"
+                            max="9999">
+                        <button href="" class="quick-donate__button popup-link" data-link="popup-1">
+                            <img src="../images/think-right.png" alt="Button-arrow-img">
+                        </button>
+                    </form>
+
+                </div>
+
+                <div></div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Quick donate end -->
+
+
+    <!-- Did you know start  -->
+
+    <div class="container">
+        <section class="did-you-know">
+            <div class="did-you-know__up gorilla">
+                <h3 class="did-you-know__title">
+                    did you know?
+                </h3>
+                <p class="did-you-know__subtitle">
+                    In addition to having distinctive fingerprints like humans do,
+                    gorillas also have unique nose prints.
+                    Gorillas are the largest of the great apes, but the western lowland
+                    gorilla is the smallest of the subspecies.
+                </p>
+            </div>
+
+            <div class="did-you-know__middle">
+
+                <ul class="did-you-know__middle-block">
+                    <li class="did-you-know__line">
+                        <p class="did-you-know__item">Common name:</p>
+                        <span class="did-you-know__subitem">Western lowland gorillas
+                        </span>
+                    </li>
+
+                    <li class="did-you-know__line">
+
+                        <p class="did-you-know__item">Scientific name:</p>
+                        <span class="did-you-know__subitem">Gorilla
+                        </span>
+
+                    </li>
+
+                    <li class="did-you-know__line">
+
+                        <p class="did-you-know__item">Type:</p>
+                        <span class="did-you-know__subitem">Mammals
+
+
+                        </span>
+
+                    </li>
+
+                    <li class="did-you-know__line">
+
+                        <p class="did-you-know__item">Size:</p>
+                        <span class="did-you-know__subitem">Standing height, four to six feet
+                        </span>
+
+                    </li>
+
+                    <li class="did-you-know__line">
+
+                        <p class="did-you-know__item">Diet:</p>
+                        <span class="did-you-know__subitem">Omnivore
+                        </span>
+
+                    </li>
+
+                    <li class="did-you-know__line">
+
+                        <p class="did-you-know__item">Habitat:</p>
+                        <span class="did-you-know__subitem">Rainforests</span>
+
+                    </li>
+
+                    <li class="did-you-know__line">
+
+                        <p class="did-you-know__item">Range:</p>
+                        <span class="did-you-know__subitem">Western Africa</span>
+
+                    </li>
+
+
+                </ul>
+
+
+                <a class="did-you-know__button eagle" href="../map.html">
+                    <div class="did-you-know__button-text">view map</div>
+                    <img src="../images/meet-arrow.png" alt="arrow">
+                </a>
+
+
+
+                <img class="did-you-know-gorilla-pic" src="../images/zoos/did-you-know-gorilla.png" alt="eagle">
+            </div>
+
+            <p class="did-you-know__text-footer gorilla">
+                Western lowland gorillas are the smallest of the four subspecies.
+                They live in thick tropical rainforests, where they find plenty of
+                food for their vegetarian diet. They eat roots, shoots, fruit, wild
+                celery, and tree bark and pulp. Gorillas can climb trees, but they’re
+                usually found on the ground in communities—known as troops. Troops are
+                led by one dominant, older adult male, often called a silverback because
+                of the swath of silver hair that adorns his otherwise dark fur. Troops
+                also include several other young males, some females, and their offspring.
+                The leader organizes troop activities, such as eating, nesting in leaves,
+                and moving about the group's home range. Gorillas prefer traveling on all fours,
+                pushing themselves forward with their knuckles and soles of their feet.
+                Female gorillas give birth to one infant after a pregnancy of nearly nine months
+                . These infants ride on their mothers’ backs from the age of four months
+                through the first two or three years of their lives.
+            </p>
+
+        </section>
+    </div>
+
+
+
+    <!-- Did you know end  -->
+
+    <!-- /////footer/////////////////////////////////////////////////// -->
+    <div class="footer-upper">
+        <div class="container">
+            <footer class="footer">
+
+                <div class="footer__top">
+                    <ul class="footer__logos">
+                        <li class="footer__logo">
+                            <a href="../index.html">
+                                <img src="../images/footer-left-img.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__logo">
+                            <a href="">
+                                <img src="../images/footer-middle-logo.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__logo">
+                            <a href="">
+                                <img src="../images/footer-right-logo.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <nav class="footer__nav">
+                        <ul class="footer__links">
+                            <li><a class="footer__link" href="../index.html">about</a> </li>
+                            <li><a class="footer__link" href="../map.html">map</a> </li>
+                            <li><a class="footer__link footer__notactive" href="../zoos/panda.html">zoos</a> </li>
+                            <li><a class="footer__link" href="../contact.html">contact us</a> </li>
+                        </ul>
+                    </nav>
+
+                    <button class="footer__button popup-link" data-link="popup">
+                        <div class="footer__button-text">donate for volunteers</div>
+                        <img src="../images/watch-arrow.png" alt="arrow">
+                    </button>
+
+                </div>
+
+                <div class="footer__down">
+                    <ul class="footer__down-logos">
+                        <li><a class="footer__down-logo" href="" title="© 2021 DinaK"> © 2021 DinaK</a></li>
+                        <li><a class="footer__down-logo" href="" title="© Yem Digital"> © Yem Digital</a></li>
+                        <li><a class="footer__down-logo" href="" title="© RSSchool"> © RSSchool</a></li>
+                    </ul>
+
+                    <ul class="footer__down-socials">
+                        <li>
+                            <a class="footer__down-social" href="https://www.youtube.com/"><img
+                                    src="../images/YouTube.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a class="footer__down-social" href="http://instagram.com/"><img
+                                    src="../images/Instagram.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a class="footer__down-social" href="https://www.facebook.com/"><img
+                                    src="../images/Facebook.svg" alt=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+    <script src="../scripts/popup.js"></script>
+    <script src="../scripts/frames.js"></script>
+</body>
