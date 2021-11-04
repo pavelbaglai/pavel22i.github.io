@@ -1,0 +1,39 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color:#0E1C29;
+$primar-color:#4deb04;
+
+
+h1 {
+  font: 600% $font-stack;
+  color: $primary-color;
+}
+.linia {
+
+  border: 1px solid rgba(120, 120, 120, 0.25);
+ 
+   }
+
+header {
+    width:0 , auto;
+    height:122px;
+    background-color: $primary-color;
+    padding-top :82px;
+    
+}
+.bg-light {
+  background-color: $primary-color!important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+.banner {
+margin-top:42.5px;
+margin-bottom: 38px;
+width:0 , auto;
+height: 110px;
+background: #BDC3C7;
+}

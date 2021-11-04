@@ -1,0 +1,36 @@
+h1 {
+  font: 600% Helvetica, sans-serif;
+  color: #0E1C29;
+}
+
+.linia {
+  border: 1px solid rgba(120, 120, 120, 0.25);
+}
+
+header {
+  width: 0 , auto;
+  height: 122px;
+  background-color: #0E1C29;
+  padding-top: 82px;
+}
+
+.bg-light {
+  background-color: #0E1C29 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+.banner {
+  margin-top: 42.5px;
+  margin-bottom: 38px;
+  width: 0 , auto;
+  height: 110px;
+  background: #BDC3C7;
+}
+/*# sourceMappingURL=style.css.map */
