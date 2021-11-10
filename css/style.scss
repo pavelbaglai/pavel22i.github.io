@@ -1,0 +1,79 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: rgb(19, 255, 10);
+
+h1 {
+  font: 400% $font-stack;
+  color: $primary-color;
+}
+
+header {
+
+        background: none #0E1C29;
+        /* background: #212121 url("/templates/esol_responsive/images/ny2020bg.png") no-repeat center top; */
+        padding: 82px 0 0;
+        height: 123px;        
+}
+header .um-border {
+    border-top: 1px solid rgba(120, 120, 120, 0.25);
+}
+.bg-light {
+  background-color: #0E1C29!important;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(241, 241, 241, 0.9);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(250, 250, 250, 0.911);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../img/menu.svg');
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.55);
+  
+}
+.banner {
+  margin-top:23.5px;
+  margin-bottom: 29px;
+  width:0 , auto;
+  height: 110px;
+  background: #BDC3C7;
+  }
+  .breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: var(--bs-breadcrumb-divider, ">");
+}
+.text  {
+  display: block;
+  width: 4px;
+  height: 34px;
+  background-color: #FBAF39;
+  
+}
+h2 {
+  width:300px ;
+  font: 155% $font-stack;
+  color: $primary-color;
+ padding-left: 16px ;
+  padding-top: 3px;
+
+ }
+ .products-clearfix {
+    margin-top: 21px;
+}
+.kino {
+  margin-top: 21px;
+}
+
