@@ -77,3 +77,28 @@ h2 {
   margin-top: 21px;
 }
 
+.kino-img {
+  position: relative;
+ display: inline-block;
+}
+
+.kino-img a {
+ height: 160px;
+ width: 250px;
+}
+
+.kino-img h2 {
+ left: 0;
+ position: absolute;
+ top: 10px;
+ width: 100%;
+ left: 5px;
+}
+.kino-img h2 span {
+ background: rgb(201, 16, 16);
+ border-radius: 2px;
+ color: #fff;
+ font: 16px arial;
+ line-height: 29px;
+ padding: 3px 5px;
+}

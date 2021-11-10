@@ -1,2 +1,0 @@
-# pavelbaglai.github.io
-ghbdtn
