@@ -108,10 +108,125 @@ h2 {
   background: #214362;
 }
 .main-footer {
-  height: 240px;
-  background: #7FABD4;
+  padding: 36px 0;
+    background: #7FABD4;
+}
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+.soc-ban {
+  margin: 50px 0;
+}
+.main-footer ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+.main-footer ul.social-network li {
+	display: inline;
+	//margin: 50px 5px;
+
+}
+
+
+/* footer social icons */
+.main-footer .social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.main-footer .social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.main-footer .social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.main-footer .social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.main-footer .social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.main-footer .social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.main-footer .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.main-footer .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+.main-footer a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.main-footer .social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.main-footer .social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.main-footer .social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.main-footer .social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.main-footer a {
+ background-color: #7fabd4;   
+}
+
+.main-footer .form-control {
+  height: 51px;
+  background-color: #7fabd4;
+  color: rgb(248, 10, 10);
+  border: 2px solid #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 50px 0;
 }
 .footer-f {
-  height: 286px;
+  padding: 40px 0;
   background: #0E1C29;
+}
+.btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.main-footer  .btn-violet {
+  background-color: #fdfdfd;
+}
+.btn-shadow {
+  padding: 10px 25px;
+  transition: all .5s;
+  width: 190px;
+height: 51px;
+  margin: 50px -25px;
 }
