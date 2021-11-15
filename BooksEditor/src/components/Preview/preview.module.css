@@ -1,0 +1,15 @@
+.main {
+  padding: 0.5rem;
+  font-size: 0.8em;
+}
+.main h4 {
+  font-size: 1em;
+  font-weight: bolder;
+}
+.main div {
+  font-size: 1em;
+}
+
+.img img {
+  height: 10rem;
+}

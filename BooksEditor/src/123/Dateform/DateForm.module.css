@@ -1,0 +1,6 @@
+.hasError {
+  border: 1px red solid;
+}
+.date input {
+  width: 100%;
+}

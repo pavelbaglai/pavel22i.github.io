@@ -1,0 +1,6 @@
+.hasError {
+  border: 1px red solid;
+}
+.firstName input {
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.error {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+.helper {
+  font-size: 0.5rem;
+  color: blue;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+.form label {
+  font-size: 1rem;
+}
+.form input {
+  width: 100%;
+  height: 1.5rem;
+}
