@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tesla</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- Создание блока header -->
+<header class="header">
+    <!-- В блок header вкладываем элемент logo -->
+  <img src="image/logo.svg" alt="logo" class="header__logo" />
+    <!-- В блок header вкладываем элемент menu -->
+  <nav class="header__menu">
+        <!-- В элементе menu создаем список -->
+    <a href="#" class="menu__link menu__link__active">Model S</a>
+    <a href="#" class="menu__link menu__link-X">Model X</a>
+    <a href="#" class="menu__link menu__link-3">Model 3</a>
+    <a href="#" class="menu__link">Roadster</a>
+    <a href="#" class="menu__link">Energy</a>
+        <!--        <a href="#" class="menu__link">Магазин</a>-->
+  </nav>
+  <nav class="header__menu-second">
+        <!-- В блоке header создаем кнопку button -->
+    <a href="#" class="menu__link">Магазин</a>
+    <p><button class="header__button">Войти</button></p>
+        <!-- В блоке header создаем burger-меню -->
+    <div class="header__burger">
+            <!--        Foto burger-menu-->
+      <img src="image/menu.svg" alt="menu" />
+    </div>
+  </nav>
+</header>
+<!-- Создание первого блока с заголовко, подзаголовком и фото с названием -->
+<section class="section-first">
+    <!-- Заголовок модели -->
+  <h1 class="section-first__title">Model S</h1>
+    <!-- Подзаголовок приветствия -->
+  <p class="section-first__subtitle">Добро пожаловать в будущее!</p>
+    <!-- Создание блока с фото с названием -->
+  <div class="content">
+        <!-- Фото с названием Тесла -->
+        <!--        <img src="" alt="Tesla" class="content__text"/>-->
+        <!-- Фото самой Тесла -->
+    <img src="image/tesla-png-tesla-png-hd-1636.png" alt="Tesla foto" class="content__img"/>
+  </div>
+    <!--  Создание блока с характеристиками разгона и скорости -->
+  <div class="information">
+    <div class="information__group information__group-first">
+            <!--  Создание блока с характеристиками разгона -->
+      <div class="information__block">
+                <!-- Фото спидометра -->
+        <img src="image/Speed.svg" alt="Speedometr" class="time__foto" />
+        <div class="information__number">
+          <h4 class="information__number-title">2,7 <span class="information__number-subtitle">сек</span></h4>
+          <p class="information__number-text">0-100 км/час</p>
+        </div>
+      </div>
+            <!--  Создание блока с характеристиками скорости -->
+      <div class="information__block">
+                <!-- Фото зигзага -->
+        <img src="image/Road%20icon.svg" alt="Stroke" class="speed__foto" />
+        <div class="information__number">
+          <h4 class="information__number-title">632 <span class="information__number-subtitle">км</span></h4>
+          <p class="information__number-text">запас хода</p>
+        </div>
+      </div>
+    </div>
+        <!--  Создание блока с тест-драйв -->
+    <div class="information__group information__group-second">
+      <div class="information__block information__block__icon">
+        <img src="image/Test%20drive%201.png" alt="Test drive 1" class="test__foto"/>
+      </div>
+            <!-- Создание блока с кнопкой заказать -->
+      <div class="information__block information__block__button">
+        <button class="button__text">Заказать</button>
+      </div>
+    </div>
+  </div>
+    <!-- Создание блока со стрелочкой -->
+  <div class="section-first__arrow">
+    <img src="image/Vector.svg" alt="Arrow" class="arrow__foto" />
+  </div>
+</section>
+<!-- Section-first finished -->
+<!--  Создание второго блока с фото и описанием -->
+<section class="section-second">
+    <!--  Создание заголовка третьего уровня -->
+  <h3 class="section-second__title title__text">Model S</h3>
+    <!-- Создание блока с фото -->
+    <!--    <div class="section-second__foto">-->
+    <!--        <img src="image/2013-tesla-model-s-cockpit.png" alt="car-inside-Model-S" class="foto__image"/>-->
+    <!--    </div>-->
+    <!--  Создание блока с описанием -->
+  <aside class="aside md">
+        <!-- Создание заголовка -->
+    <h4 class="aside__title md-tit">Будущее вождения</h4>
+        <!--  Создание бллока с описательной частью -->
+    <div class="aside__content md-cont">
+      <p>
+        Модель S обладает лучшей в своем классе вместимостью: в машине
+        поместится до пяти взрослых и двух детей. Оснащена современным<br />
+        17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия
+        создает динамику звука, сравнимую со студией звукозаписи, а
+        стеклянная крыша обеспечивает просторный интерьер для каждого
+        пассажира.
+      </p>
+    </div>
+        <!--  Создание блока с описательными характеристиками -->
+    <div class="aside__it-about">
+            <!--  Создание блока с характеристиками разгона -->
+      <div class="information__block information__block__aside">
+                <!-- Фото дисплея с характеристиками -->
+        <img src="image/screen.png" alt="Display" class="display__foto" />
+        <div class="information__number information__number__aside">
+          <h4 class="information__number-title information__number-title-aside">17
+            <span class="information__number-subtitle information__number-subtitle-aside">дюймов</span>
+          </h4>
+          <p class="information__number-text information__number-text-aside">Большой дисплей</p>
+        </div>
+      </div>
+            <!--  Создание блока с Wifi -->
+      <div class="information__block information__block__aside">
+                <!-- Фото дисплея с Wifi -->
+        <img src="image/wifi.png" alt="Wifi" class="wifi__foto" />
+        <div class="information__number information__number__aside">
+          <span class="information__number-subtitle information__number-subtitle-aside subtitle__aside-second">
+            Беспроводное<br />
+            обновление ПО
+          </span>
+          <p class="information__number-text information__number-text-aside text__aside-second">
+            Повышенная<br />
+            функциональность
+          </p>
+        </div>
+      </div>
+            <!--  Создание блока с capaciti -->
+      <div class="information__block information__block__aside">
+                <!-- Фото дисплея с capaciti -->
+        <img src="image/bag.png" alt="Capaciti" class="capaciti__foto" />
+        <div class="information__number information__number__aside">
+          <h4 class="information__number-title information__number-title-aside">894
+            <span class="information__number-subtitle information__number-subtitle-aside">литра</span>
+          </h4>
+          <p class="information__number-text information__number-text-aside">
+            Объем грузового<br />
+            пространства
+          </p>
+        </div>
+      </div>
+    </div>
+        <!--  Создание блока с УЗНАТЬ БОЛЬШЕ -->
+    <div class="information__group information__group-second information__group-second-aside">
+      <div class="information__block information__block__icon-aside">
+        <img src="image/Learn%20more%202%20btn.png" alt="УЗНАТЬ БОЛЬШЕ" class="test__foto test__foto-aside"/>
+      </div>
+            <!-- Создание блока с кнопкой заказать -->
+      <div class="information__block information__block__button-aside">
+        <button class="button__text button__text-aside">Заказать</button>
+      </div>
+    </div>
+  </aside>
+</section>
+<!--  Secrion-second finished -->
+<!--  Создание третьей секции -->
+<section class="section-third">
+    <!--  Создание блока с заголовком -->
+  <div class="section-third__title">
+        <!--        <img src="#" alt="Model S" class="title__foto"/>-->
+  </div>
+
+    <!--  Создание блока с описанием -->
+  <aside class="aside-second md">
+        <!-- Создание заголовка -->
+    <h4 class="aside-second__title md-tit">Самый безопасный автомобиль в мире</h4>
+        <!--  Создание бллока с описательной частью -->
+    <div class="aside-second__content md-cont">
+      <p>
+        Модель S достигла наивысшей оценки безопасности любого автомобиля,
+        когда-либо испытанного, и установила рекорд по наименьшей
+        вероятности травмы пассажиров - от несчастных случаев на переднем,
+        боковом, заднем сидении и в ДТП с переворотом авто.
+      </p>
+    </div>
+        <!--  Создание блока с заголовком -->
+    <div class="aside-second__subtitle">
+            <!-- Создание заголовка -->
+      <h4 class="subtitle__text">Оценка защиты:</h4>
+    </div>
+        <!--  Создание блока с рейтингом-->
+    <div class="aside-second__reting">
+            <!--  Создание блока с характеристиками рейтинга -->
+      <div class="reting__text">
+        <ul class="text__list">
+          <li class="text__link">Спереди</li>
+          <li class="text__link">Сбоку</li>
+          <li class="text__link">Сбоку<p class="text__link__title">(стойка)</p></li>
+          <li class="text__link">ВОДИТЕЛЬ</li>
+          <li class="text__link">ПАССАжир</li>
+        </ul>
+      </div>
+            <!--  Создание блока stars -->
+      <div class="reting__star">
+        <ul class="star__list">
+          <li class="star__link">
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+          </li>
+          <li class="star__link">
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+          </li>
+          <li class="star__link">
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+          </li>
+          <li class="star__link">
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+          </li>
+          <li class="star__link">
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+            <img src="image/Star.svg" alt="star" class="star__foto" />
+          </li>
+        </ul>
+      </div>
+    </div>
+        <!--  Создание блока five -->
+    <div class="aside-second__five">
+            <!-- Создание блока с щитом -->
+      <div class="information__block information__block__aside information__block__aside-five">
+                <!-- Создание блока с количеством оценок -->
+        <img src="image/Group.png" alt="5 звезд" class="text__foto" />
+        <div class="information__number information__number-aside number__aside-five">
+          <h4 class="information__number-title information__number-title-aside number__title__aside-five">5
+            <span class="information__number-subtitle information__number-subtitle-aside number__subtitle__aside-five">звезд</span>
+          </h4>
+          <p class="information__number-text information__number-text-aside number__text__aside-five">безопасности</p>
+        </div>
+      </div>
+    </div>
+        <!--  Создание блока с УЗНАТЬ БОЛЬШЕ -->
+    <div class="information__group information__group-second information__group-second-aside group__second__aside-five">
+      <div class="information__block information__block__icon-aside block__icon-aside-five">
+        <img src="image/Learn%20more%202%20btn.png" alt="УЗНАТЬ БОЛЬШЕ" class="test__foto test__foto-aside test__foto-aside-five"/>
+      </div>
+            <!-- Создание блока с кнопкой заказать -->
+      <div class="information__block information__block__button-aside">
+        <button class="button__text button__text-aside">Заказать</button>
+      </div>
+    </div>
+  </aside>
+    <!--  Создание блока с foto -->
+  <div class="section-third__car">
+    <img src="image/Car%20frame%20group.png" alt="Car" class="car__foto" />
+  </div>
+</section>
+</body>
+</html>

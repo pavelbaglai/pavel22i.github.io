@@ -1,0 +1,1311 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 60px 0 41px;
+}
+
+.header__logo {
+  display: flex;
+  width: 166px;
+  height: 51px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 490px;
+  margin-left: 38px;
+}
+
+.menu__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 33px;
+  color: #000;
+}
+
+.menu__link__active {
+  color: #e51937;
+  border-bottom: 2px solid #e51937;
+}
+
+.menu__link-X {
+  position: relative;
+  padding-left: 20px;
+}
+
+.menu__link-3 {
+  position: relative;
+  margin-left: -20px;
+}
+
+.header__menu-second {
+  width: 205px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__button {
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  align-items: center;
+  line-height: 30px;
+}
+
+.header__burger {
+  width: 24px;
+  height: 22px;
+}
+
+.section-first {
+  max-width: 1440px;
+  background: url("image/Tesla-Wordmark-Red.png") no-repeat;
+  background-position-y: 56px;
+  background-size: 100%;
+}
+
+.section-first__title {
+  width: 100%;
+  padding-top: 58px;
+  font-weight: 600;
+  font-size: 90px;
+  text-align: center;
+  color: #000;
+}
+
+.section-first__subtitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: -10px;
+  color: #000;
+}
+
+.content {
+  text-align: center;
+}
+
+.content__img {
+  padding-top: 25px;
+  padding-right: 70px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 810px;
+}
+
+.information__group {
+  display: flex;
+  width: 50%;
+}
+
+.information__group-first {
+  width: 66%;
+}
+
+.information__group-second {
+  justify-content: space-around;
+}
+
+.time__information {
+  display: flex;
+  padding-left: 10px;
+}
+
+.information__block {
+  display: flex;
+  width: 50%;
+  padding-top: 19px;
+}
+
+.time__foto {
+  padding-top: 11px;
+}
+
+.information__number-title {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 6px;
+  font-weight: 600;
+  font-size: 35px;
+  color: #000;
+}
+
+.information__number-subtitle {
+  padding-top: 13px;
+  padding-left: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+.information__number-text {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-top: -3px;
+}
+
+.speed__foto {
+  padding-top: 9px;
+}
+
+.test__foto {
+  padding-left: 16px;
+  padding-top: 7px;
+}
+
+.information__block__button {
+  width: 160px;
+  height: 40px;
+  margin-right: 5px;
+  margin-top: 17px;
+  border: 2px solid #e51937;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.button__text {
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #e51937;
+  background: transparent;
+  margin-top: -18px;
+  padding-left: 41.5px;
+  letter-spacing: 0.8px;
+}
+
+.section-first__arrow {
+  width: 28px;
+  height: 14px;
+  padding-top: 26px;
+  margin: 0 auto;
+}
+
+.section-second {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("image/2013-tesla-model-s-cockpit.png");
+  background-position: -5px 107px;
+  background-repeat: no-repeat;
+  background-size: 89%;
+}
+
+.section-second__title {
+  width: 31%;
+  text-align: center;
+  padding-top: 118px;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 85px;
+  color: #e51937;
+}
+
+.aside {
+  width: 440px;
+  margin-top: -146px;
+  margin-left: auto;
+  padding-top: 52px;
+  padding-left: 47px;
+  padding-bottom: 23px;
+  background: #e51937;
+}
+
+.aside__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  padding-left: 5px;
+  color: #fff;
+}
+
+.aside__content {
+  width: 316px;
+  height: 206px;
+  padding-top: 11px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 44px;
+  padding-left: 5px;
+  color: #fff;
+}
+
+.aside__content p {
+  line-height: 120%;
+}
+
+.information__block__aside,
+.information__number-title-aside,
+.information__number-subtitle-aside {
+  color: #fff;
+  width: 100%;
+}
+
+.aside__it-about {
+  padding-left: 3px;
+  margin-bottom: 155px;
+}
+
+.information__number-title-aside {
+  padding-top: 1px;
+  padding-left: 19px;
+}
+
+.information__number-subtitle-aside {
+  padding-left: 11px;
+}
+
+.information__number-text-aside {
+  padding-left: 21px;
+}
+
+.display__foto {
+  padding-top: 10px;
+  margin-bottom: 18px;
+}
+
+.wifi__foto {
+  width: 44px;
+  height: 34px;
+  margin-top: 18px;
+  margin-right: 18px;
+}
+
+.subtitle__aside-second {
+  padding-left: 0;
+}
+
+.text__aside-second {
+  padding-left: 0;
+}
+
+.capaciti__foto {
+  padding-top: 13px;
+  padding-left: 5px;
+}
+
+.test__foto-aside {
+  padding-left: 0;
+}
+
+.test__foto-aside-five {
+  padding-left: 11px;
+}
+
+.information__block__icon-aside {
+  width: 43%;
+  height: 53px;
+}
+
+.information__block__button-aside {
+  margin-top: 17px;
+  margin-left: 20px;
+  border: 2px solid #fff;
+  width: 160px;
+  height: 40px;
+}
+
+.information__group-second-aside {
+  width: 100%;
+  margin-bottom: 40px;
+  justify-content: end;
+}
+
+.button__text-aside {
+  color: #fff;
+}
+
+.section-third {
+  display: flex;
+  background: url("image/Model S.png");
+  background-repeat: no-repeat;
+  background-position: 0 145px;
+  background-position-x: 647px;
+}
+
+.aside-second {
+  position: absolute;
+  margin-right: auto;
+  padding-bottom: 22px;
+  width: 440px;
+  background: #e51937;
+}
+
+.aside-second__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  padding-top: 53px;
+  padding-left: 56px;
+  color: #fff;
+}
+
+.aside-second__content {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  padding-top: 11px;
+  padding-left: 56px;
+  width: 370px;
+  color: #fff;
+}
+
+.subtitle__text {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  padding-top: 55px;
+  padding-left: 56px;
+  color: #fff;
+}
+
+.aside-second__reting {
+  display: flex;
+  padding-left: 57px;
+  padding-top: 28px;
+}
+
+.reting__text {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text__link:nth-child(2) {
+  padding-top: 17px;
+  padding-bottom: 15px;
+}
+
+.text__link:nth-child(3) {
+  display: flex;
+  padding-bottom: 17px;
+}
+
+.text__link:nth-child(4) {
+  padding-bottom: 16px;
+}
+
+.star__link:nth-child(1) {
+  margin-top: -2px;
+}
+
+.star__link:nth-child(2) {
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+.star__link:nth-child(4) {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+.text__link__title {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  padding-top: 7px;
+  padding-left: 2px;
+  color: #fff;
+}
+
+.reting__star {
+  margin-left: 32px;
+  width: 160px;
+  justify-content: space-between;
+}
+
+.star__foto {
+  width: 25px;
+}
+
+.star__foto:nth-child(2) {
+  margin-left: -1px;
+  margin-right: -2px;
+}
+
+.star__foto:nth-child(4) {
+  margin-right: -4px;
+}
+
+.star__list,
+.text__list {
+  list-style: none;
+}
+
+.information__block__aside-five {
+  padding-top: 5px;
+}
+
+.aside-second__five {
+  display: flex;
+  padding-left: 64px;
+  padding-top: 92px;
+}
+
+.text__foto {
+  width: 65px;
+  height: 82px;
+  padding-top: 10px;
+}
+
+.number__title__aside-five,
+.number__subtitle__aside-five {
+  font-size: 50px;
+}
+
+.number__title__aside-five {
+  padding-left: 23px;
+}
+
+.number__subtitle__aside-five {
+  padding-top: 0;
+  padding-left: 13px;
+}
+
+.number__text__aside-five {
+  font-size: 25px;
+  margin-top: -9px;
+  padding-left: 24px;
+}
+
+.group__second__aside-five {
+  justify-content: center;
+  padding-right: 27px;
+  padding-top: 44px;
+}
+
+.section-third__car {
+  padding-top: 172px;
+  padding-left: 344px;
+}
+
+.car__foto {
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 1411px) {
+  .section-second {
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .section-second {
+    background-position: -5px 123px;
+  }
+
+  .header__burger {
+    display: none;
+  }
+}
+
+@media (max-width: 1251px) {
+  .section-second {
+    background-position: -5px 200px;
+  }
+}
+
+@media (max-width: 1121px) {
+  .content__img {
+    padding-right: 0;
+  }
+
+  .section-second {
+    background-position: -5px 280px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+
+  .header__burger {
+    display: block;
+  }
+
+  .header__menu,
+  .header__button,
+  .menu__link {
+    display: none;
+  }
+
+  .section-first {
+    background-position-y: 80px;
+  }
+
+  .information {
+    max-width: 700px;
+  }
+
+  .content__img {
+    width: 100%;
+  }
+
+  .aside {
+    height: 100%;
+  }
+
+  .section-second {
+    background-position: 0 360px;
+  }
+
+  .section-third {
+    background-size: 555px;
+    background-position: 450px 145px;
+  }
+
+  .aside-second {
+    width: 40%;
+  }
+
+  .car__foto {
+    top: 155px;
+  }
+}
+
+@media (max-width: 960px) {
+  .information__group {
+    width: 380px;
+  }
+
+  .section-second__title {
+    width: 40%;
+  }
+
+  .section-third {
+    background-size: 455px;
+  }
+
+  .aside-second {
+    width: 45%;
+  }
+
+  .group__second__aside-five {
+    width: auto;
+  }
+}
+
+@media (max-width: 920px) {
+  .section-second {
+    background-position: 0 440px;
+  }
+
+  .section-second__title {
+    width: 40%;
+  }
+
+  .information__group {
+    width: 330px;
+  }
+
+  .group__second__aside-five {
+    width: auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .information {
+    max-width: 650px;
+  }
+
+  .aside-second {
+    width: 50%;
+  }
+
+  .section-third {
+    background-size: 355px;
+    background-position: 431px 200px;
+  }
+
+  .group__second__aside-five {
+    padding-right: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    padding: 25px 47px 0 15px;
+  }
+
+  .header__burger img {
+    width: 36px;
+    height: 22px;
+  }
+
+  .section-first {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: -5px 181px;
+    background-size: 822px;
+  }
+
+  .section-first__title {
+    padding-top: 80px;
+  }
+
+  .content {
+    width: 100%;
+    padding-left: 0;
+    margin-top: -24px;
+  }
+
+  .content__img {
+    width: 95%;
+    margin-top: 88px;
+    padding-right: 16px;
+    padding-left: 13px;
+  }
+
+  .information {
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .information__group {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .time__foto {
+    width: 77px;
+    height: 111px;
+  }
+
+  .information__number-title {
+    font-size: 50px;
+    padding-top: 12px;
+  }
+
+  .information__number-subtitle {
+    padding-top: 22px;
+    padding-left: 15px;
+  }
+
+  .information__number-text {
+    padding-left: 14px;
+    margin-top: -1px;
+  }
+
+  .speed__foto {
+    width: 90px;
+    height: 104px;
+    padding-top: 20px;
+    padding-left: 32px;
+    margin-bottom: 40px;
+  }
+
+  .information-block {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .information__block__icon {
+    width: 238px;
+    background: url("image/Test drive 1 (red).png") no-repeat;
+    background-position: center;
+  }
+
+  .test__foto {
+    display: none;
+  }
+
+  .information__block__button {
+    width: 220px;
+    height: 55px;
+    background: #e51937;
+    margin-right: 40px;
+    margin-top: 7px;
+  }
+
+  .button__text {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 65px;
+    color: #fff;
+  }
+
+  .section-first__arrow {
+    padding-top: 60px;
+  }
+
+  .section-second {
+    background: url("image/2013-tesla-model-s-cockpit (1).png") no-repeat;
+    background-position-y: 82px;
+  }
+
+  .section-second__title {
+    width: 100%;
+    height: 575px;
+    padding-top: 91px;
+    text-align: end;
+    padding-right: 46px;
+  }
+
+  .aside {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+    margin-left: 0;
+    width: 100%;
+    height: 485px;
+    padding-top: 55px;
+    padding-left: 30px;
+  }
+
+  .aside__content {
+    padding-top: 21px;
+    padding-left: 4px;
+  }
+
+  .aside__content p {
+    line-height: 127%;
+  }
+
+  .aside__it-about {
+    padding-left: 423px;
+    margin-top: -308px;
+    margin-bottom: 50px;
+  }
+
+  .display__foto {
+    margin-bottom: 5px;
+  }
+
+  .information__number-title-aside {
+    font-size: 35px;
+    padding-top: 4px;
+  }
+
+  .information__number-subtitle-aside {
+    padding-top: 13px;
+    padding-left: 12px;
+  }
+
+  .information__number-text-aside {
+    padding-left: 21px;
+    margin-top: -5px;
+  }
+
+  .subtitle__aside-second {
+    padding-left: 0;
+  }
+
+  .text__aside-second {
+    padding-left: 0;
+  }
+
+  .information__group-second-aside {
+    display: flex;
+    justify-content: end;
+    width: 66%;
+  }
+
+  .test__foto-aside {
+    width: 210px;
+    display: flex;
+    height: 54px;
+    padding-top: 20px;
+  }
+
+  .information__block__button-aside {
+    width: 220px;
+    height: 55px;
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .section-third {
+    flex-direction: column-reverse;
+    width: 100%;
+    background-position: 94px 73px;
+    background-size: 586px;
+  }
+
+  .section-third__car {
+    background: url("image/Car frame group (3).png") no-repeat;
+    background-position-x: -1px;
+    background-position-y: 76px;
+    background-size: 96%;
+    height: 1026px;
+  }
+
+  .aside-second {
+    margin-left: 0;
+    padding-bottom: 72px;
+    width: 100%;
+    height: 487px;
+  }
+
+  .aside-second__title {
+    max-width: 500px;
+    padding-top: 63px;
+    padding-left: 34px;
+  }
+
+  .aside-second__content {
+    padding-top: 14px;
+    padding-left: 34px;
+    width: 350px;
+  }
+
+  .aside-second__subtitle {
+    padding-left: 365px;
+    margin-top: -271px;
+  }
+
+  .aside-second__reting {
+    padding-left: 423px;
+  }
+
+  .aside-second__five {
+    display: none;
+  }
+
+  .aside-second__test {
+    padding-top: 0;
+  }
+
+  .group__second__aside-five {
+    justify-content: flex-end;
+    width: 59%;
+  }
+
+  .block__icon-aside-five {
+    width: 46%;
+  }
+
+  .test__foto-aside-five {
+    padding-left: 0;
+  }
+
+  .car__foto {
+    display: none;
+  }
+}
+
+@media (max-width: 735px) {
+  .aside-second__subtitle {
+    padding-left: 359px;
+  }
+
+  .aside-second__reting {
+    padding-left: 400px;
+  }
+}
+
+@media (max-width: 701px) {
+  .aside__it-about {
+    padding-left: 387px;
+  }
+
+  .subtitle__text {
+    padding-left: 3px;
+  }
+
+  .aside-second__reting {
+    padding-left: 370px;
+  }
+
+  .group__second__aside-five {
+    width: 65%;
+  }
+}
+
+@media (max-width: 660px) {
+  .button__text {
+    padding-left: 44px;
+  }
+
+  .information {
+    max-width: 400px;
+  }
+
+  .aside__it-about {
+    display: none;
+  }
+
+  .subtitle__text {
+    display: none;
+  }
+
+  .aside-second__reting {
+    display: none;
+  }
+
+  .information__group-second-aside {
+    display: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .md {
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+  }
+  .md-tit {
+  	padding-left: 0;
+  	margin: auto;
+  	text-align: center;
+  }
+  .md-cont {
+  	padding-left: 0;
+  	padding-right: 10px;
+  	margin: auto;
+  	height: auto;
+  	text-align: center;
+  }
+} 
+
+@media (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+
+  .section-first {
+    background-size: 100%;
+    background-position: 0 160px;
+  }
+
+  .section-first__title {
+    width: 100%;
+    font-size: 50px;
+    padding-top: 60px;
+  }
+
+  .section-first__subtitle {
+    font-size: 10px;
+  }
+
+  .information {
+    max-width: 350px;
+  }
+
+  .time__foto {
+    width: 40px;
+    height: 58px;
+  }
+
+  .information__number-title {
+    font-size: 27px;
+  }
+
+  .information__number-subtitle {
+    font-size: 15px;
+    padding-top: 13px;
+    padding-left: 6px;
+  }
+
+  .information__number-text {
+    font-size: 10px;
+  }
+
+  .speed__foto {
+    width: 64px;
+    height: 73px;
+  }
+
+  .information__group-second {
+    justify-content: space-between;
+  }
+
+  .information__block__icon {
+    width: 160px;
+  }
+
+  .information__block__button {
+    width: 160px;
+    height: 40px;
+    margin-right: 0;
+  }
+
+  .button__text {
+    padding-left: 35px;
+  }
+
+  .section-first__arrow {
+    padding-top: 40px;
+  }
+
+  .section-second {
+    background-size: 100%;
+    background-position-y: 108px;
+  }
+
+  .section-second__title {
+    padding-top: 51px;
+    font-size: 50px;
+    height: 357px;
+  }
+
+  .aside {
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 45px;
+  }
+
+  .aside__it-about,
+  .information__group-second-aside {
+    display: none;
+  }
+
+  .section-third {
+    background-size: 100%;
+    background-position: 7px 73px;
+  }
+
+  .section-third__car {
+    height: 680px;
+  }
+
+  .aside-second {
+    height: 340px;
+  }
+
+  .aside-second__title {
+    width: 100%;
+  }
+
+  .aside-second__subtitle,
+  .aside-second__reting {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+    height: 48px;
+    padding: 27px 23px 0 4px;
+  }
+
+  .header__logo {
+    width: 138px;
+    height: 42px;
+  }
+
+  .header__burger img {
+    width: 24px;
+    height: 15px;
+    margin-top: 13px;
+  }
+
+  .section-first {
+    background-position: -17px 130px;
+    background-size: 421px;
+  }
+
+  .section-first__title {
+    padding-top: 49px;
+  }
+
+  .section-first__subtitle {
+    margin-top: -2px;
+  }
+
+  .content__img {
+    width: 100%;
+    margin-top: 48px;
+  }
+
+  .information {
+    max-width: 300px;
+  }
+
+  .information__block {
+    padding-top: 15px;
+  }
+
+  .time__foto {
+    width: 45.92px;
+    height: 50.16px;
+    padding-top: 20px;
+  }
+
+  .information__number-subtitle {
+    padding-top: 11px;
+    padding-left: 9px;
+  }
+
+  .information__number-text {
+    padding-left: 10px;
+  }
+
+  .speed__foto {
+    width: 48px;
+    height: 60px;
+    padding-top: 17px;
+    padding-left: 16px;
+    margin-bottom: 32px;
+  }
+
+  .information__block__icon {
+    width: 118px;
+    background: url("image/Test drive 1 (red 2).png") no-repeat;
+    background-position: center;
+    margin-top: 6px;
+  }
+
+  .information__block__button {
+    width: 160px;
+    height: 40px;
+    background: #e51937;
+  }
+
+  .button__text {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-left: 43px;
+  }
+
+  .section-first__arrow {
+    padding-top: 30px;
+  }
+
+  .section-second {
+    background: url("image/2013-tesla-model-s-cockpit (2).png") no-repeat;
+    background-position-y: 17px;
+    padding-top: 343px;
+  }
+
+  .title__text {
+    display: none;
+  }
+
+  .aside {
+    width: 100%;
+    height: 305px;
+    padding-top: 20px;
+    padding-left: 21px;
+  }
+
+  .aside__content {
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+
+  .aside__it-about {
+    display: none;
+  }
+
+  .section-third {
+    width: 100%;
+    background-position: 2px 49px;
+    background-size: 393px;
+  }
+
+  .aside-second {
+    width: 100%;
+    height: 306px;
+  }
+
+  .aside-second__title {
+    width: 100%;
+    padding-top: 19px;
+    padding-left: 31px;
+  }
+
+  .aside-second__content {
+    padding-top: 12px;
+    padding-left: 31px;
+    width: 345px;
+    line-height: 18px;
+  }
+
+  .aside-second__subtitle {
+    display: none;
+  }
+
+  .aside-second__reting {
+    display: none;
+  }
+
+  .aside-second__test {
+    display: none;
+  }
+
+  .aside-second__test img {
+    display: none;
+  }
+
+  .aside-second__button {
+    display: none;
+  }
+
+  .section-third__car {
+    background: url("image/Group 18.png") no-repeat;
+    background-position-y: 57px;
+    padding-top: 294px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 361px) {
+  .section-first {
+    background-size: 360px;
+  }
+
+  .information {
+    max-width: 285px;
+  }
+
+  .aside__content,
+  .aside-second__content {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .aside-second__content {
+    padding-right: 15px;
+  }
+
+  .section-third__car {
+    background-size: 100%;
+    padding-left: 0;
+  }
+
+  .aside__title,
+  .aside-second__title {
+    font-size: 25px;
+  }
+}
