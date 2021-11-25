@@ -24,6 +24,13 @@ header
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 }
 
+.container-fluid2 {
+ 
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
 
 .img2 {
   float:left;
@@ -2183,7 +2190,25 @@ span.color-red {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-.sequence-pagination li {
+.glyphicon-chevron-right:before{
+  content: "";
+}
+.glyphicon-chevron-left:before {
+  content: "";
+}
+.mean-toggle:before {
+  background-image: url(../img/Group2.svg);
+  font-family: fontAwesome;
+  line-height: 40px;
+}
+.container-3 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 55px;
+}
+.carousel-indicators li {
   display: inline-block;
   *display: inline;
   width: 14px;
@@ -2207,7 +2232,7 @@ span.color-red {
   -ms-transition: background .5s, opacity .5s;
   transition: background .5s, opacity .5s;
 }
-.sequence-pagination li.current {
+.carousel-indicators .active {
   background: #63fc0a;
   -webkit-opacity: 1;
   -moz-opacity: 1;
