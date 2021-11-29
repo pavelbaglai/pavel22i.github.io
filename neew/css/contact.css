@@ -13,6 +13,11 @@ header {
      margin-bottom: -10px; 
     border: 1px solid transparent;
 }
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #fff!important;
+}
+
 
 .container-fluid {
     margin-right: auto;

@@ -3,7 +3,7 @@ header {
     /* max-width: 1200px; */
     /* margin: 20px auto; */
     /*padding: 10px;*/
-    background: #FFF;
+    
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 }
@@ -12,6 +12,10 @@ header {
     min-height: 50px;
      margin-bottom: -10px; 
     border: 1px solid transparent;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #fff!important;
 }
 
 .container-fluid {

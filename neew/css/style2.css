@@ -7,6 +7,11 @@ header {
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 }
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #fff!important;
+}
+
 .navbar {
     position: relative;
     min-height: 50px;
