@@ -210,13 +210,48 @@ nav ul li a:hover
     width: 150px;
     background: none repeat scroll 0 0 #069370;
 }
-.fotter-f {
-    background-color: #069370;
-    height: 35px;
-}
 /*=====================================================================================*/
 
 iframe {
     text-align: center;
     margin: 15px 0 20px 255px;
+}
+.fotter-f {
+    background-color: #069370;
+  
+        padding: 15px 35px 0;
+    
+}
+.kart5{
+    margin: 47px 0 0 25px;
+    padding: 0 0 0 0;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*=====================================================================================*/
+.footer-headline {
+    background: url(/images/page/stl/headline-footer-bg.png) repeat-x scroll 0 50% rgba(0, 0, 0, 0);
+    display: block;
+    margin: 35px 0 42px;
+    /*text-align: center;*/
+}
+
+.links-list li:first-child a, .links-list-alt li:first-child a {
+    margin: -3px 0 0;
+}
+
+.links-list li a {
+    background: url(/images/page/stl/links-list-arrow-01.png) no-repeat scroll left 47% rgba(0, 0, 0, 0);
+    color: #a4a4a4;
+    display: block;
+    padding: 3px 0 3px 12px;
+}
+#footer-bottom {
+    border-top: 1px solid #3c3c3c;
+    margin-top: 25px;
+    padding: 22px 0;
 }
