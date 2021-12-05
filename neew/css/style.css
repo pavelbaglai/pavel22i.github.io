@@ -3,10 +3,14 @@ header {
     /* max-width: 1200px; */
     /* margin: 20px auto; */
     /*padding: 10px;*/
-    background: #FFF;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 }
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #fff!important;
+}
+
 .navbar {
     position: relative;
     min-height: 50px;
@@ -212,10 +216,12 @@ nav ul li a:hover
 }
 .fotter-f {
     background-color: #069370;
-    height: 35px;
+  
+        padding: 15px 35px 0;
+    
 }
 .kart5{
-    margin: 47px 0 0 25px;
+    margin: 47px 0 0 55px;
     padding: 0 0 0 0;
 }
 .container {
@@ -225,3 +231,25 @@ nav ul li a:hover
     margin-left: auto;
 }
 /*=====================================================================================*/
+.footer-headline {
+    background: url(/images/page/stl/headline-footer-bg.png) repeat-x scroll 0 50% rgba(0, 0, 0, 0);
+    display: block;
+    margin: 35px 0 42px;
+    /*text-align: center;*/
+}
+
+.links-list li:first-child a, .links-list-alt li:first-child a {
+    margin: -3px 0 0;
+}
+
+.links-list li a {
+    background: url(/images/page/stl/links-list-arrow-01.png) no-repeat scroll left 47% rgba(0, 0, 0, 0);
+    color: #a4a4a4;
+    display: block;
+    padding: 3px 0 3px 12px;
+}
+#footer-bottom {
+    border-top: 1px solid #3c3c3c;
+    margin-top: 25px;
+    padding: 22px 0;
+}
