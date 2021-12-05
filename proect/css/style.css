@@ -1,0 +1,475 @@
+@charset "UTF-8";
+header {
+  background: none #0E1C29;
+  /* background: #212121 url("/templates/esol_responsive/images/ny2020bg.png") no-repeat center top; */
+  padding: 82px 0 0;
+}
+
+@media (min-width: 1279px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1280px;
+  }
+}
+
+header .um-border {
+  border-top: 1px solid rgba(120, 120, 120, 0.25);
+}
+
+.bg-light {
+  background-color: #0E1C29 !important;
+}
+
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 770px) {
+  header {
+    padding: 20px 0;
+    background: #0E1C29;
+  }
+  header .um-border {
+    border-top: 0px solid rgba(120, 120, 120, 0.25);
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(/img/menu.svg);
+  }
+}
+
+#afisha .breadcrumb-item a {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 30px;
+  /* or 273% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* Evening */
+  color: #515C6B;
+  text-decoration: none;
+}
+
+#afisha .breadcrumb-item.active {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 30px;
+  /* or 273% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* Mouse */
+  color: #BDC3C7;
+}
+
+#afisha .breadcrumb-item + .breadcrumb-item::before {
+  float: left;
+  padding-right: .5rem;
+  color: #6c757d;
+  content: var(--bs-breadcrumb-divider, ">");
+}
+
+#afisha h1 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 115%;
+  /* or 25px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  /* Colors/Primary/Antracit */
+  color: #0E1C29;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  /* or 214% */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 6px 5px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  /* or 214% */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 6px 5px 10px;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  border-bottom: 3px solid #FBAF39;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #FBAF39;
+  border-bottom: 3px solid #FBAF39;
+}
+
+/*часть 2*/
+#top_banner {
+  margin: 24px 0 0;
+}
+
+.mod_ijoomlazone {
+  /* text-align: center; */
+  height: 110px;
+  /* Mouse */
+  background: #BDC3C7;
+}
+
+.standard_adv_link {
+  width: 1312px;
+  height: 110px;
+  left: 15px;
+  top: 146px;
+  background: #BDC3C7;
+}
+
+/* ----------------------------------------------afisha*/
+#afisha {
+  margin: 24px 0 0;
+}
+
+.modulh1 {
+  margin: 0 0 21px;
+}
+
+.modulh1text {
+  border-left: 4px solid #FBAF39;
+  padding: 0 15px 0;
+}
+
+.maincontent {
+  margin: 41px 0 0;
+}
+
+.kino-img {
+  position: relative;
+  display: inline-block;
+}
+
+.kino-img h2 {
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  left: 5px;
+}
+
+.kino-img h2 span {
+  background: #FBAF39;
+  border-radius: 2px;
+  line-height: 29px;
+  padding: 3px 5px;
+  margin: 0 0 0 16px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  /* identical to box height, or 12px */
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.imgkino {
+  width: auto;
+  max-width: 100%;
+}
+
+.product-title {
+  padding: 14px 0 0 0;
+}
+
+.product-title a {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 92.75%;
+  /* identical to box height, or 12px */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* Evening */
+  color: #515C6B;
+}
+
+.product-desc {
+  padding: 10px 0 40px 0;
+}
+
+.product-desc a {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 92.75%;
+  /* or 19px */
+  letter-spacing: 0.02em;
+  /* Colors/Primary/Antracit */
+  color: #0E1C29;
+  text-decoration: none;
+}
+
+.reklamaleft1 {
+  height: 360px;
+  /* Colors/Primary/november */
+  background: #214362;
+}
+
+.reklamaleft {
+  height: 360px;
+  /* Colors/Primary/november */
+  background: #214362;
+  margin: 38px 0 0 0;
+}
+
+#footer-f {
+  padding: 40px 0;
+  background: #0E1C29;
+}
+
+/*---------------------------------------------------------------*/
+#topfotter {
+  background: #7FABD4;
+  margin: 64px 0 0;
+  padding: 38px 0 38px 0;
+}
+
+#topfotter h5 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 115%;
+  /* or 25px */
+  color: #FFFFFF;
+}
+
+/*=========================
+  Icons
+ ================= */
+/* footer social icons */
+.soc-ban {
+  margin: 50px 0;
+}
+
+#topfotter ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+#topfotter ul.social-network li {
+  display: inline;
+}
+
+/* footer social icons */
+#topfotter .social-network a.icoRss:hover {
+  background-color: #F56505;
+}
+
+#topfotter .social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+#topfotter .social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+
+#topfotter .social-network a.icoGoogle:hover {
+  background-color: #BD3518;
+}
+
+.main-footer .social-network a.icoVimeo:hover {
+  background-color: #0590B8;
+}
+
+#topfotter .social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+#topfotter .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+#topfotter .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+#topfotter a.socialIcon:hover, .socialHoverClass {
+  color: #44BCDD;
+}
+
+#topfotter .social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#topfotter .social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+#topfotter .social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#topfotter .social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+#topfotter a {
+  background-color: #7fabd4;
+}
+
+#topfotter .form-control {
+  height: 54px;
+  background-color: #7fabd4;
+  color: #fff;
+  border: 2px solid #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 50px 0;
+}
+
+#topfotter .btn {
+  margin: 50px 0 0 -29px;
+  padding: 17px 16px 14px 14px;
+  display: inline-block;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #0E1C29;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  background-color: #ffff;
+  border: 1px solid transparent;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  #topfotter .btn {
+    margin: 0 0 0 0;
+    padding: 15px 55px 15px 55px;
+    display: inline-block;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #0E1C29;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+        user-select: none;
+    background-color: #ffff;
+    border: 1px solid transparent;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  }
+}
+
+#footer-f .textperv a {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 115%;
+  /* or 18px */
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#footer-f .textvt p {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%;
+  /* or 19px */
+  /* Mouse */
+  color: #BDC3C7;
+}
+
+#footer-f .textth p {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */
